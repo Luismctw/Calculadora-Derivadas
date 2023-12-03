@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Derivadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Derivadas</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <label for="inputFunction">Ingrese la función:</label>
+            <input type="text" id="inputFunction" placeholder="Ejemplo: x^2 + 3x + 2">
+            <button onclick="limpiarInput()">Limpiar</button>
+            <button onclick="calcularDerivada()">Calcular Derivada</button>
+        </div>
+        
+        <div id="resultadoDerivada" class="resultado"></div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
